@@ -1,0 +1,5 @@
+terraform import module.instances.google_compute_instance.tf-instance-1 tf-instance-1
+
+terraform init --reconfigure
+
+terraform init -upgrade
